@@ -363,6 +363,8 @@ margin: 0px;
     font-size: 22px;
     line-height: 1.18;
 
+    margin-bottom: 10px;
+
     
 
   }
@@ -373,12 +375,13 @@ margin: 0px;
     font-family: Roboto;
     font-size: 14px;
     line-height: 1.71;
-   
+   margin-bottom: 10px;
 }
 
 .footer-address-div{
     margin-top: 48px;
     margin-bottom: 88px;
+    
 }
 
 
@@ -393,6 +396,10 @@ margin: 0px;
 
 }
 
+.footer-email {
+    margin-bottom: 10px;
+}
+
 .call-to-action {
   
 
@@ -400,6 +407,7 @@ font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
+
 }
 
 
@@ -435,6 +443,10 @@ text-transform: uppercase;
     margin-right: 30px;
     margin-bottom: 30px;
     
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 5px;
   }
 
   .example:nth-child(3n) {
@@ -446,6 +458,9 @@ text-transform: uppercase;
   }
 
   
+  .container-example-of-work{
+      display: block;
+  }
  
   
 
@@ -560,6 +575,7 @@ text-transform: uppercase;
 
   .call-to-action-list-flex {
       display: flex;
+      flex-direction: column;
   }
 
   .section-usual-client .section-title{
@@ -568,7 +584,43 @@ text-transform: uppercase;
 
   }
 
-  .footer .footer-flex{
+  .footer-flex{
       display: flex;
+      align-items: center;
 
+  }
+
+
+  .subscript-footer {
+      display: inline;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-left: auto;
+      
+      
+  }
+
+  .footer-address-div {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-right: 180px;
+    
+  }
+
+
+
+
+
+
+  .foter-go-it-text{
+      margin: 0px;
+      padding-bottom: 20px;
+      margin-left: 475px;
+      margin-right:auto;
+      
   }
