@@ -349,7 +349,9 @@ margin: 0px;
  
  .button-portfolio {
     display: flex;
-    align-self: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    
 }
 
  
@@ -400,6 +402,56 @@ margin: 0px;
     margin-bottom: 10px;
 }
 
+.footer-flex{
+    display: flex;
+    align-items: center;
+  }
+
+ 
+  .footer-address-div {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-right: 180px;
+    
+  }
+
+
+  .call-to-action-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+  .subscript-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    
+}
+
+
+.subscript-footer .button {
+    margin-bottom: 0px
+    ;
+}
+
+
+  .foter-go-it-text{
+      margin: 0px;
+      padding-bottom: 20px;
+      margin-left: 475px;
+      margin-right:auto;
+      
+  }
+
+/* footer */
+
+
 .call-to-action {
   
 
@@ -433,9 +485,10 @@ text-transform: uppercase;
   .portfolio-ul{
       display: flex;
       flex-wrap: wrap;
-      color: grey;
-      padding-left: 0px;
       
+      padding-left: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px;      
   }
 
   .example {
@@ -461,6 +514,11 @@ text-transform: uppercase;
   .container-example-of-work{
       display: block;
   }
+
+  .main-section-portfolio{
+      margin-top: 94px;
+      margin-bottom: 94px;
+  }
  
   
 
@@ -478,34 +536,21 @@ text-transform: uppercase;
   }
 
 
-   .color-container-portfolio {
-
-    background-color:grey;
+  .about-our-work-ul{
+    display: flex;
    }
 
 
-  
-
-  
-
-  .about-our-work-ul{
-      display: flex;
-      
-        
-        
-      }
-
-      .about-our-work-li{
-        flex-wrap: wrap;
-          
-        width: calc((100% - 2*30px) / 3);
-        margin-right: 30px;
-        margin-bottom: 94px;
+  .about-our-work-li{
+    flex-wrap: wrap;
+    width: calc((100% - 2*30px) / 3);
+    margin-right: 30px;
+    margin-bottom: 94px;
 
       }
     
-      .about-our-work-li:nth-child(3n) {
-        margin-right: 0px;
+    .about-our-work-li:nth-child(3n) {
+     margin-right: 0px;
     
       }
      
@@ -573,54 +618,14 @@ text-transform: uppercase;
 
 
 
-  .call-to-action-list-flex {
-      display: flex;
-      flex-direction: column;
-  }
-
   .section-usual-client .section-title{
       padding-top: 94px;
       padding-bottom: 50px;
 
   }
 
-  .footer-flex{
-      display: flex;
-      align-items: center;
 
-  }
-
-
-  .subscript-footer {
-      display: inline;
-      flex-wrap: wrap;
-      flex-direction: column;
-      margin-left: auto;
-      
-      
-  }
-
-  .footer-address-div {
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    
-    margin-top: 48px;
-    margin-bottom: 48px;
-    margin-right: 180px;
-    
-  }
-
-
-
-
-
-
-  .foter-go-it-text{
-      margin: 0px;
-      padding-bottom: 20px;
-      margin-left: 475px;
-      margin-right:auto;
-      
-  }
+  
+ 
+ 
+  
