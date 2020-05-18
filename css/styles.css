@@ -45,14 +45,20 @@ body{
 .site-nav{
     color: var(--primary-text-color);
     display: flex;
+    align-items: center;
     
+}
+
+.container.container-site-nav{
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .item-nav {
     
     padding: 0px;
     margin-left: 80px;
-    /* margin-right: 334px; */
+    
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -81,9 +87,8 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    /* display: block;
-    padding-top: 21px;
-    padding-bottom: 21px; */
+    text-decoration: none;
+    
     
 }
 
@@ -99,9 +104,9 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 
-    margin-top: 25px;
-    margin-bottom: 25px;
+    
 
 }
 
@@ -127,6 +132,7 @@ body{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
+text-decoration: none;
 
 }
 
@@ -144,17 +150,23 @@ margin-right: 30px;
 
 /* section */
 
-.section.hero{
-    padding-bottom: 10px;
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
 }
 
+
+.photo-workers {
+    margin-bottom: 30px;
+}
 
 
 .names {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 10px;
 }
 
@@ -177,7 +189,7 @@ text-align: center;
 text-transform: uppercase;
 }
 
-.section-title {
+.container .section-title {
     color: var(--title-text-color);
 
     font-weight: 700;
@@ -186,7 +198,9 @@ text-transform: uppercase;
 
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 94px;
+    margin-bottom: 50px;
+    padding-top: 0px;
+    
     
 
 }
@@ -204,7 +218,7 @@ line-height: 1.18;
 
 .benefits-list{
 
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
     
      
     width: calc((100% - 3*29px) / 3);
@@ -275,15 +289,22 @@ margin: 0px;
     line-height: 1.14;
 
     text-transform: uppercase;
+    margin: 0px;
 }
 
 
 /* social links */
 
+.call-to-action-list-flex{
+    display: flex;
+    
+}
+
 .social-links{
 
     list-style: none;
     text-decoration: none ;
+    
    
 }
 
@@ -324,7 +345,8 @@ margin: 0px;
     border-radius: 4px;
     padding: 11px 32px;
     text-align: center;
-    margin-bottom: 200px;
+    
+    display: inline-block;
     
     
   }
@@ -341,6 +363,8 @@ margin: 0px;
 
   
 
+  
+
   .button-portfolio .button-secondary:hover,
   .button-portfolio .button-secondary:focus {
 
@@ -354,7 +378,40 @@ margin: 0px;
     
 }
 
- 
+.button-portfolio .lil{
+    margin-right: 8px;
+}
+
+.button-portfolio .lil:nth-child(5n){
+    margin-right: 0px;
+}
+
+.button-portfolio-li{
+
+    background: #F5F4FA;
+    border-radius: 4px;
+    height: 38px;
+    
+}
+
+.button-portfolio-li:hover,
+.button-portfolio-li:focus{
+    color: var(--accent-color);
+}
+
+.button-text {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.button-text:hover,
+.button-text:focus{
+    color: var(--accent-color);
+}
 
   /* footer */
 
@@ -468,13 +525,17 @@ text-transform: uppercase;
  .title-portfolio {
 
     color: var(--title-text-color);
+    margin-top: 0px;
   }
 
   .text-portfolio {
       color: var(--primary-text-color);
+      margin-top: 0px;
   }
 
-  
+  .lay-out-portfolio {
+      margin: 0px;
+  }
 
   .example .link:hover,
   .example .link:focus {
@@ -510,18 +571,13 @@ text-transform: uppercase;
       margin-bottom: 0px;
   }
 
-  
-  .container-example-of-work{
-      display: block;
+  .portfolio-img {
+
+    margin-bottom: 20px;
   }
 
-  .main-section-portfolio{
-      margin-top: 94px;
-      margin-bottom: 94px;
-  }
+  
  
-  
-
   /* container of header */
 
   .container {
@@ -532,7 +588,7 @@ text-transform: uppercase;
     
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid orange;
+    outline: 2px solid red;
   }
 
 
@@ -554,6 +610,10 @@ text-transform: uppercase;
     
       }
      
+      .about-our-work-li:nth-last-child(-n + 3) {
+        margin-bottom: 0px;
+       
+         }
   
 
 
@@ -577,7 +637,10 @@ text-transform: uppercase;
   .our-team-flex-li:nth-child(4n) {
     margin-right: 0px;
     
-
+  }
+  .our-team-flex-li:nth-last-child(-n + 4) {
+    margin-bottom: 0px;
+    
   }
 
   .our-team-flex-li .text{
@@ -588,9 +651,7 @@ text-transform: uppercase;
 
   .our-team .section-title{
       
-      padding-top: 94px;
-      padding-bottom: 50px;
-      margin-bottom: 0px;
+      margin-bottom: 50px;
   }
 
   .our-usual-client-list{
@@ -607,7 +668,7 @@ text-transform: uppercase;
       box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 
-    margin-bottom: 94px;
+    
   }
 
   .our-usual-client-li:nth-child(6n) {
@@ -618,14 +679,14 @@ text-transform: uppercase;
 
 
 
-  .section-usual-client .section-title{
-      padding-top: 94px;
-      padding-bottom: 50px;
+  
 
+
+  
+ 
+ 
+  
+  
+  .section-our-work{
+      background-color: grey;
   }
-
-
-  
- 
- 
-  
