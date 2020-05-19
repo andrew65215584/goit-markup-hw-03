@@ -320,6 +320,7 @@ margin: 0px;
 .call-to-action-list-flex{
     display: flex;
     
+    
 }
 
 .social-links{
@@ -558,6 +559,7 @@ font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 color: #FFFFFF;
+margin-bottom: 21px;
 
 }
 
@@ -724,6 +726,12 @@ color: #FFFFFF;
 
     
   }
+
+
+.our-clients-img {
+  
+}
+
 
   .our-usual-client-li:nth-child(6n) {
     margin-right: 0px;
