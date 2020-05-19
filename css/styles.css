@@ -718,12 +718,11 @@ color: #FFFFFF;
          
   }
 
-  .our-usual-client-link {
-
-    display: inline-block;
+  .our-usual-client-list .our-usual-client-link {
+    
     align-items: center;
-    padding-top: auto;
-    padding-bottom: auto;
+
+    
   }
 
   .our-usual-client-li:nth-child(6n) {
