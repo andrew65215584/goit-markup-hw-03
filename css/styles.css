@@ -497,19 +497,20 @@ margin: 0px;
 
 .footer-flex{
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    justify-content: space-between;
   }
 
  
   .footer-address-div {
 
     display: flex;
-    flex-wrap: wrap;
+    
     flex-direction: column;
-    margin: 0px;
+    
     margin-top: 48px;
     margin-bottom: 48px;
-    margin-right: 180px;
+    
     
   }
 
@@ -523,7 +524,7 @@ margin: 0px;
   .subscript-footer {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
+    
     
 }
 
@@ -605,6 +606,10 @@ margin-bottom: 21px;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     border-radius: 5px;
+  }
+
+  .example .link {
+    display: block;
   }
 
   .example:nth-child(3n) {
@@ -729,7 +734,7 @@ margin-bottom: 21px;
 
 
 .our-clients-img {
-  
+
 }
 
 
