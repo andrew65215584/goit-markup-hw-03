@@ -490,6 +490,7 @@ margin: 0px;
   }
 
   .footer-logo {
+    display: block;
     font-family: Raleway;
 
     font-weight: 700;
@@ -510,16 +511,12 @@ margin: 0px;
    color: #FFFFFF;
 }
 
-.footer-address-div{
-    margin-top: 48px;
-    margin-bottom: 88px;
-    
-}
+
 
 
 .footer-contacts{
      
-
+    display: block;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -542,12 +539,11 @@ margin: 0px;
  
   .footer-address-div {
 
-    display: flex;
-    
-    flex-direction: column;
-    
+      
     margin-top: 48px;
     margin-bottom: 48px;
+
+   
     
     
   }
