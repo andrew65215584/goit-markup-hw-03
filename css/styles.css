@@ -47,6 +47,7 @@ body{
     display: flex;
     align-items: center;
     
+    
 }
 
 .container.container-site-nav{
@@ -56,6 +57,8 @@ body{
 
 .container-site-nav{
   border-bottom: 1px solid #ECECEC;
+  display: flex;
+  align-items: center;
 }
 
 .item-nav {
