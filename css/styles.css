@@ -167,9 +167,16 @@ margin-right: 30px;
   border-top: 1px solid #ECECEC;
 }
 
+.our-team-content {
+  
+  
+  outline: 5px solid red;
+  text-align: center;
 
+}
 .photo-workers {
     margin-bottom: 30px;
+    display: block;
 }
 
 
@@ -179,6 +186,8 @@ margin-right: 30px;
     line-height: 1.18;
     margin-top: 0px;
     margin-bottom: 10px;
+
+    text-align: center;
 }
 
 .our-team {
@@ -322,6 +331,8 @@ margin: 0px;
 
 .call-to-action-list-flex{
     display: flex;
+    margin-left: 75px;
+    
     
     
 }
@@ -330,6 +341,7 @@ margin: 0px;
 
     list-style: none;
     text-decoration: none ;
+    display: block;
     
    
 }
@@ -337,6 +349,9 @@ margin: 0px;
 .social-link-li{
 
   margin-right: 10px;
+}
+.social-link-li:nth-child(4n){
+  margin-right: 0px;
 }
 
 .social-links:hover,
@@ -702,6 +717,8 @@ margin-bottom: 21px;
   .our-team-flex{
 
     display: flex;
+    list-style: none;
+
   }
 
   .our-team-flex-li{
@@ -713,7 +730,7 @@ margin-bottom: 21px;
     
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-
+    
   }
 
   .our-team-flex-li:nth-child(4n) {
@@ -729,6 +746,7 @@ margin-bottom: 21px;
 
     margin-bottom: 16px;
     margin-top: 0px;
+    text-align: center;
   }
 
   .our-team .section-title{
