@@ -576,6 +576,7 @@ margin-bottom: 21px;
   .text-portfolio {
       color: var(--primary-text-color);
       margin-top: 0px;
+      margin-bottom: 0px;
   }
 
   .lay-out-portfolio {
@@ -601,15 +602,41 @@ margin-bottom: 21px;
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
-    
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+
+    text-decoration: none;
+    list-style: none;
     box-sizing: border-box;
-    border-radius: 5px;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+    
+    
+
+    
   }
+
+  .card-content {
+
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background: var(--background-color);
+    box-sizing: border-box;
+     
+    border-bottom-left-radius: 5px ; 
+    border-bottom-right-radius: 5px ;
+    border-left: 1px solid#eeeeee;
+    border-right: 1px solid#eeeeee;
+    border-bottom: 1px solid#eeeeee;
+  }
+
 
   .example .link {
     display: block;
+    text-decoration: none;
   }
 
   .example:nth-child(3n) {
@@ -622,7 +649,10 @@ margin-bottom: 21px;
 
   .portfolio-img {
 
-    margin-bottom: 20px;
+    
+    border-radius: 5px 5px 0px 0px;
+    
+    display: block;
   }
 
   
