@@ -347,8 +347,8 @@ margin: 0px;
 
 .call-to-action-list-flex{
     display: flex;
-    margin-left: 75px;
     
+    justify-content: center;
     
     
 }
@@ -364,10 +364,14 @@ margin: 0px;
 
 .social-link-li{
 
-  margin-right: 10px;
+  margin-right: 20px;
+
 }
+
+
 .social-link-li:nth-child(4n){
   margin-right: 0px;
+  
 }
 
 .social-links:hover,
